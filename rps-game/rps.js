@@ -7,7 +7,6 @@ function computerPlay() {
 
 function playRound(playerSelection, computerSelection) {
     // logic of the actual game
-    // fix case of player selection first
     // scoring, player = 1, computer = 2, draw = 0
 
     if (playerSelection.toUpperCase() == "ROCK" && computerSelection == "Paper"){
